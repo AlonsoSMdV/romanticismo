@@ -1,0 +1,25 @@
+
+/******************************************************************/
+/* Web del romanticismo - hoja de estilo de poema                 */
+/* Autor : Alonso Sánchez Moreno de Vega                          */
+/* Versión 1.0 - 07/11/2022                                       */
+/******************************************************************/
+
+
+/**************estilo general**************************************/
+@font-face {
+    font-family: escritura;
+    src: url('./../fonts/DancingScript-VariableFont_wght.ttf');
+}
+body{ font-family:escritura ;
+    font-size: 1.2em;
+    background-image: url("../images/wallpaperpirate.jpg");
+    background-repeat:repeat-y;
+    /*background position: bottom right;*/
+    background-size: 15%;
+    background-color: #FFE4C4;
+    }
+
+    #wrapper{margin-left: 15%;
+    color: #24354B;
+    }

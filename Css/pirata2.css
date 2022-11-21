@@ -1,0 +1,40 @@
+
+/*********************************************************************************************/
+/* Web del romanticismo - hoja de estilo de poema-Hoja de estilo de poemas con foto de fondo */
+/* Autor : Alonso Sánchez Moreno de Vega                                                     */
+/* Versión 1.0 - 07/11/2022                                                                  */
+/*********************************************************************************************/
+
+
+/**************estilo general*****************************************************************/
+@font-face {
+    font-family: escritura;
+    src: url('./../fonts/DancingScript-VariableFont_wght.ttf');
+}
+body{font-family: escritura;
+font-size: 1.2em;
+/* Ahora colocamos una sola imagen de buena calidad de fondo*/
+background-image: url(../images/wallpaperpirate.jpg);
+background-color:#080E1C ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+#wrapper{
+    color: white;
+    margin-left: 5%;
+    height: 95vh;
+}
+/* el vinculo tiene un color por defecto, lo desactivamos y colocamos el nuestro */
+/* el selector a está "puesto en contexto":a dentro de wrapper */
+
+#wrapper a{
+    color: rgb(253, 226,208)
+}
+/* a hover es una PSEUDOCLASE: al poner el ratón encima, hay un comportamiento
+dinámico desde el estilo,sn necesidad de javascript */
+
+#wrapper a:hover{color: rgb(179, 138, 112);}
+.fa{
+font-size: 200%!important;
+}
